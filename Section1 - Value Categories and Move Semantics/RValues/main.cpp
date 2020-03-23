@@ -14,11 +14,14 @@ int main() {
 	// R-values do NOT bing to l-value references:
 	// >> int& lv_ref0 = 5;
 	// >> int& lv_ref1 = bar();
-
-	//R-values bind to r-value references, introduced in C++11:
 	
-	int&& rv_ref0 = 5;
-	int&& rv_ref1 = bar();
+	//R-values bind to r-value references, introduced in C++11:
+
+	// int& rv_ref2 = 5;		// Does not compile
+	const int& rv_ref2 = 5;		// const r-value reference
+	int&& rv_ref0 = 5;			// non-const r-value reference via universal reference operator
+	int&& rv_ref1 = bar();		// R-Value References can be set to the return value of a function
+
 
 	// Examples of R-Values:
 	// (1) Numeric Literals
