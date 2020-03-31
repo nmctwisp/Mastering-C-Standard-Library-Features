@@ -138,6 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0_basics.cpp" />
+    <ClCompile Include="1_make_shared.cpp" />
+    <ClCompile Include="2_weak_ptr.cpp" />
+    <ClCompile Include="3_cycles.cpp" />
+    <ClCompile Include="slides.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

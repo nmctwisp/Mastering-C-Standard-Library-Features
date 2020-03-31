@@ -138,6 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0_basics.cpp" />
+    <ClCompile Include="1_move.cpp" />
+    <ClCompile Include="2_make_unique.cpp" />
+    <ClCompile Include="3_how_it_works.cpp" />
+    <ClCompile Include="slides.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
