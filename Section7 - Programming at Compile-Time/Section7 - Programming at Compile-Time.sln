@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constant Expressions", "Constant Expressions\Constant Expressions.vcxproj", "{82FBF78E-C091-4C27-A3DC-8A616BC985FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constexpr in the Standard Library", "constexpr in the Standard Library\constexpr in the Standard Library.vcxproj", "{AE8E2E60-E0E2-4544-B826-45C22001CC27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exceptions in constexpr Functions", "Exceptions in constexpr Functions\Exceptions in constexpr Functions.vcxproj", "{CFFF296C-49F6-448F-B620-D1174A4B5FB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Debug|x64.ActiveCfg = Debug|x64
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Debug|x64.Build.0 = Debug|x64
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Debug|x86.Build.0 = Debug|Win32
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Release|x64.ActiveCfg = Release|x64
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Release|x64.Build.0 = Release|x64
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Release|x86.ActiveCfg = Release|Win32
+		{82FBF78E-C091-4C27-A3DC-8A616BC985FE}.Release|x86.Build.0 = Release|Win32
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Debug|x64.ActiveCfg = Debug|x64
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Debug|x64.Build.0 = Debug|x64
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Debug|x86.Build.0 = Debug|Win32
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Release|x64.ActiveCfg = Release|x64
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Release|x64.Build.0 = Release|x64
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Release|x86.ActiveCfg = Release|Win32
+		{AE8E2E60-E0E2-4544-B826-45C22001CC27}.Release|x86.Build.0 = Release|Win32
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Debug|x64.ActiveCfg = Debug|x64
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Debug|x64.Build.0 = Debug|x64
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Debug|x86.Build.0 = Debug|Win32
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Release|x64.ActiveCfg = Release|x64
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Release|x64.Build.0 = Release|x64
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Release|x86.ActiveCfg = Release|Win32
+		{CFFF296C-49F6-448F-B620-D1174A4B5FB5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {807FBBDC-8C90-4B09-8079-0276416B6D9B}
+	EndGlobalSection
+EndGlobal
